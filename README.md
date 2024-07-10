@@ -30,14 +30,10 @@ O modelo ARIMA é uma combinação dessas três partes e é especificado como (p
 * Como a ideia da pesquisa é avaliar os locais de acidentes da cidade, foi utilizado as colunas de “longitude” e “latitude” do Dataset. Antes de qualquer análise, foi feito a limpeza dos dados e a retirada de valores nulos que se encontravam em algumas linhas das respectivas colunas.
 
 * Após a limpeza, foi realizada a primeira visualização, utilizando mapa de calor, onde as regiões que possuem mais acidentes terão uma cor mais escura em relação as outras. O código Python utilizou a biblioteca HeatMap do folium.
-
-![image](https://github.com/GeorgeMarquesfs/DataScience-POA-Traffic-accident/assets/102534476/faef5673-b774-49b3-bfad-6dbb8a086500)
-
+  
 ![image](https://github.com/GeorgeMarquesfs/DataScience-POA-Traffic-accident/assets/102534476/c8d36d8a-4f42-40f3-a344-7a2d4980409b)
 
 Com essa visualização, já se pode perceber as regiões com a cor mais escura, identificando os locais onde ocorrem mais acidentes de trânsito. A partir disso, foi realizado uma refatoração no código para dividir as regiões em Clusters, mostrando o número de acidentes em cada local.
-
-![image](https://github.com/GeorgeMarquesfs/DataScience-POA-Traffic-accident/assets/102534476/bec6505a-48da-4304-96d8-444f54aa510f)
 
 ![image](https://github.com/GeorgeMarquesfs/DataScience-POA-Traffic-accident/assets/102534476/c8d32c2f-2a61-49a0-a930-b9788c93087f)
 
