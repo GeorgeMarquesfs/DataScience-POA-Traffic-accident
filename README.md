@@ -26,9 +26,10 @@ O modelo ARIMA é uma combinação dessas três partes e é especificado como (p
 # Insights e Resultados
 
 **Análise de Locais Críticos**
+
 * Como a ideia da pesquisa é avaliar os locais de acidentes da cidade, foi utilizado as colunas de “longitude” e “latitude” do Dataset. Antes de qualquer análise, foi feito a limpeza dos dados e a retirada de valores nulos que se encontravam em algumas linhas das respectivas colunas.
 
-Após a limpeza, foi realizada a primeira visualização, utilizando mapa de calor, onde as regiões que possuem mais acidentes terão uma cor mais escura em relação as outras. O código Python utilizou a biblioteca HeatMap do folium.
+* Após a limpeza, foi realizada a primeira visualização, utilizando mapa de calor, onde as regiões que possuem mais acidentes terão uma cor mais escura em relação as outras. O código Python utilizou a biblioteca HeatMap do folium.
 
 ![image](https://github.com/GeorgeMarquesfs/DataScience-POA-Traffic-accident/assets/102534476/faef5673-b774-49b3-bfad-6dbb8a086500)
 
