@@ -23,7 +23,7 @@ O modelo ARIMA é uma combinação dessas três partes e é especificado como (p
 
 * O intervalo de confiança é útil porque reconhece que estimativas estatísticas, como médias ou previsões, não são valores exatos, mas sim estimativas com alguma incerteza. Um intervalo de confiança ajuda a quantificar essa incerteza e fornece uma faixa plausível para o valor real. É uma ferramenta importante na avaliação da precisão das estimativas em análises estatísticas e previsões.
   
-# insights e Resultados
+# Insights e Resultados
 
 **Análise de Locais Críticos**
 * Como a ideia da pesquisa é avaliar os locais de acidentes da cidade, foi utilizado as colunas de “longitude” e “latitude” do Dataset. Antes de qualquer análise, foi feito a limpeza dos dados e a retirada de valores nulos que se encontravam em algumas linhas das respectivas colunas.
